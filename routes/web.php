@@ -15,8 +15,15 @@ use App\Http\Controllers\ProjectController;
 |
 */
 
+
 Route::get('/',[ProjectController::class, 'movies'])->name('movies');
 
 Route::post('/write_review',[ProjectController::class,'write_review'])->name('write_review');
 
 Route::post('/insert_review',[ProjectController::class,'insert_review'])->name('insert_review');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+

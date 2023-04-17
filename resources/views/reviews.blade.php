@@ -17,7 +17,7 @@
 
     <div class="container mb-3 mt-3">
         <div class="card-body">
-                <h5 class="card-title">Total reviews: {{$current_review}}</h5>
+                <h5 class="card-title">Average Review: {{$current_review}}</h5>
         </div>
     </div>
 
