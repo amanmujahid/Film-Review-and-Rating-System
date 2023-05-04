@@ -43,7 +43,8 @@ class ProjectController extends Controller
             'movie_id'=>$request->input('id')
         ]);
 
-     
+        $request->session()->put('message','Your review has been inserted into the system');
+
 
         return \redirect('/');
     }

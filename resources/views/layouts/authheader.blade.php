@@ -11,16 +11,14 @@
 
 
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark pt-3 pb-3">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark pt-5 pb-5">
   <div class="container-fluid">
-    <a class="navbar-brand fs-3" href="#">FilmReviewer</a>
+    <a class="navbar-brand fs-3" href="#">Welcome to FilmReviewer</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <a href="{{ url('/logout') }}"> logout </a>
-      </ul>
+
     </div>
   </div>
 </nav>

@@ -5,7 +5,9 @@
 
 <div class="container row my-3">
 
-
+@if(Session::has('message'))
+<h3 class="alert alert-success">{{Session::get('message')}}</h3>
+@endif
 
     @foreach($movies as $movie)
         <div class="card" style="width: 18rem; margin-left:20px">
